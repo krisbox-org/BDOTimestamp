@@ -13,8 +13,6 @@ import com.actuate.schemas.GetFileDetailsResponse;
 public class BDOTimestamp {	
 	private ActuateSoapPort proxy;
 	private ActuateAPIEx    actuateAPI;
-	//private Authenticator 	auth;
-	//private String ihub;
 	
 	public BDOTimestamp() {
 		actuateAPI = new ActuateAPILocatorEx();		
